@@ -1,0 +1,21 @@
+# Site settings
+title: Purposeful Code
+header-img: img/home-bg.png
+email: yumekiaw@yahoo.com
+copyright_name: Yumekia
+description: > # this means to ignore newlines until "baseurl:"
+  Success = ["struggle", "failure", "risk", "perseverance", "progress"]
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Yumekia
+learn_profile: Yumekia
+email_username: yumekiaw@yahoo.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
